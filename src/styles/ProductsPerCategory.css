@@ -1,0 +1,15 @@
+.produtosPorCategoria {
+  background-color: var(--white);
+}
+.categorias {
+  display: flex;
+}
+
+.categoria {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: var(--gray);
+}

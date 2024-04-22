@@ -1,0 +1,80 @@
+.carrossel-sessao {
+  display: flex;
+  align-items: center;
+  background-color: var(--white);
+  margin: 0 56px;
+  position: relative;
+}
+.porCima {
+  position: absolute;
+  width: 93%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  left: 30px;
+}
+.emvolta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.carrossel {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  align-items: center;
+  gap: 20px;
+  z-index: 1;
+}
+.item-carrossel,
+.imagem-carrossel {
+  width: 277px;
+  height: 277px;
+}
+.item-carrossel {
+  position: relative;
+}
+.seila {
+  position: relative;
+  display: flex;
+  width: 257px;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  top: -270px;
+  left: 10px;
+}
+.seila small {
+  padding: 2px 4px;
+  color: var(--white);
+  background-color: var(--pink);
+}
+.setas {
+  color: var(--gray);
+  z-index: 1000;
+}
+.info-item {
+  text-align: left;
+  color: var(--gray);
+  margin: 12px 0 0 0;
+}
+.info-item p {
+  margin: 20px 0 0 0;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.info-item .parcelas {
+  margin: 6px 0 0 0;
+}
+.pink{
+  color: var(--pink);
+}
